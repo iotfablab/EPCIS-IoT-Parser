@@ -1,0 +1,10 @@
+#!/bin/sh
+# Run script for the EPCIS-IoT-Parser
+
+if [ "$1" = "start" ]; then
+        echo "START EPCIS-IoT-Parser Script"
+        /usr/bin/python epcisiotparser.py
+else
+        echo "STOP EPCIS-IoT-Parser Script"
+        pkill -U epcisiotparser
+fi

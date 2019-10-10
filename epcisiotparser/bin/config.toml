@@ -1,0 +1,30 @@
+[DocumentDB]
+# MongoDB Instance
+
+host = 'Your_Document_DB_Address'
+port = 37017
+dbName = 'Your_Site_Database'
+collection = 'sites'
+
+[DocumentDB.credentials]
+username = 'UserName'
+password = 'SecretPassword'
+
+[SensorDB]
+# InfluxDB Configuration
+host = 'Your_InfluxDB_DB_Address'
+port = 8086
+dbName = 'Sensor_DB_NAME'
+
+[SensorDB.credentials]
+# Set False if no SSL Enabled
+ssl = true
+verify_ssl = false
+username = 'UserName'
+password = 'SecretPassword'
+
+[Broker]
+# Default Configuration for AR82 Nordic ID Reader
+# Change if using external Broker
+host = '::1'
+port = 1883
