@@ -1,4 +1,6 @@
-# EPCIS-IoT-Parser
+# EPCIS-IoT-Parser (Deprecated)
+
+**Refer to [tiguitto](https://github.com/nimble-platform/tiguitto) / [TrackNTrace Landing Page](https://github.com/iotfablab/TrackNTrace) for usage of `Telegraf` to parse EPCIS and IOT Information into InfluxDB**
 
 This script parses the incoming data from IoT Sensor Nodes using [EPCIS-IoT-Arduino](https://github.com/iotfablab/EPCIS-IoT-Arduino) and adds the additional Meta-data as __Tags__ for InfluxDB.
 
